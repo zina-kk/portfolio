@@ -890,13 +890,11 @@ footer img {
     }
 
     #Gallery .G_box>div {
-        border: 1px solid blue;
-        width: 100%;
+        
+        width: 100%; 
     }
     #Gallery .G_box div div {
         margin: auto;
-        width: 100%;
-        aspect-ratio: 1/1;
 
     }
     #Gallery .G_slide_bar {       
@@ -1020,8 +1018,20 @@ footer img {
 
 
 
+    #Gallery .G_box div{
+        display: block;
+    }
+    #Gallery .slide>div div {
 
+        margin: 10px 0; 
+    }
+     #Gallery .G_slide_bar .slideButton{
+        display: none;
+     }
+     #Gallery .slide .none {
+        display: none;
 
+     }
 
 
 
@@ -1041,7 +1051,7 @@ footer img {
 
 @media(max-width:375px){
     #Home {
-        padding-top: 34vh;
+        padding-top: 30vh;
     }
     #Home h1{
         font-size: 3rem;
@@ -1057,6 +1067,14 @@ footer img {
         max-width: 80px;
     }
 
+
+    #About> div:first-child {
+       padding-top: 110px;
+    }
+    #About> div:first-child div {
+        padding: 13vh 0;
+        font-size: 1.1rem; 
+    }
 
 
     #About progress {
